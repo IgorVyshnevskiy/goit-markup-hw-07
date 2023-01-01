@@ -8,25 +8,7 @@
   margin-right: 40px;
 }
 
-.list-container > .item {
-  width: calc((100% - 72px) / 4);
-  margin-right: 24px;
-}
 
-.list-container > .item:last-child {
-  margin-right: 0;
-}
-
-.icon-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 0;
-  margin-bottom: 8px;
-  border-radius: 4px;
-
-  background-color: var(--light);
-}
 
 
 
@@ -94,28 +76,6 @@
 .foot-section:nth-child(3) {
   margin-right: 0;
 }
-
-.foot-flex {
-  display: flex;
-}
-
-
-.foot-form {
-  display: flex;
-  align-items: end;
-}
-
-.foot-field {
-  display: flex;
-  flex-direction: column;
-  min-width: 264px;
-  width: 100%;
-  margin-right: 24px;
-}
-
-
-
-
 
 /* ------- OVERLAY FOR PORTFOLIO ------- */
 
