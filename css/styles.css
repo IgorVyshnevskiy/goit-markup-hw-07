@@ -546,8 +546,7 @@ footer.dark-bg {
 
 .close-modal {
   display: block;
-  width: 24px;
-  height: 24px;
+  padding: 7px;
   margin-left: auto;
   margin-bottom: 24px;
 
