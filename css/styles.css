@@ -51,7 +51,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid green;
 }
 
 .list {
@@ -244,8 +243,6 @@ p {
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
-
-  outline: 1px solid tomato;
 }
 
 .second-section {
@@ -807,6 +804,7 @@ footer.dark-bg {
   .menu-container.is-open {
     transform: translateX(0);
     z-index: 1;
+    overflow: scroll;
     transition: transform var(--transition-main)
   }
 
