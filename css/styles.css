@@ -391,9 +391,6 @@ footer.dark-bg {
 
 .foot-section {
   margin-bottom: 72px;
-  /* margin-right: auto;
-  margin-left: auto; */
-  /* text-align: center; */
 }
 
 .foot-section:last-child {
@@ -541,8 +538,7 @@ footer.dark-bg {
 
   max-width: 398px;
   width: 95%;
-  height: 96%;
-  overflow: scroll;
+  
   padding: 16px;
   border-radius: 4px;
 
@@ -922,6 +918,13 @@ footer.dark-bg {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+  }
+}
+
+@media screen and (max-height:620px) {
+  .modal {
+    height: 96%;
+    overflow: auto;
   }
 }
 
