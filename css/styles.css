@@ -48,8 +48,8 @@ img {
 
 .container {
   max-width: 426px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -322,7 +322,6 @@ p {
 .social-item {
   width: ((100% -72px) / 4);
   margin-right: 24px;
-  /* padding: 12px; */
 }
 
 .social-item:last-child {
@@ -349,6 +348,11 @@ p {
 .social-icon,
 .foot-social-icon {
   fill: var(--primary-bg-color);
+}
+
+.features-paragraph {
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 /* -----CUSTOMERS----- */
@@ -537,6 +541,8 @@ footer.dark-bg {
 
   max-width: 398px;
   width: 95%;
+  height: 96%;
+  overflow: scroll;
   padding: 16px;
   border-radius: 4px;
 
@@ -1009,6 +1015,10 @@ footer.dark-bg {
     }
   }
 
+  .email-send {
+    margin-bottom: 4px;
+  }
+
   .hero-title {
     font-size: 56px;
     margin-bottom: 40px;
@@ -1199,6 +1209,8 @@ footer.dark-bg {
 
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .section {
@@ -1210,6 +1222,10 @@ footer.dark-bg {
     font-size: 20px;
     text-align: left;
     line-height: 1.2;
+  }
+
+  .features-paragraph {
+    font-weight: 400;
   }
 
   .list-container > .item {
