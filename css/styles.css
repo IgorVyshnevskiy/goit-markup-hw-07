@@ -942,6 +942,10 @@ footer.dark-bg {
     display: none;
   }
 
+  .site-nav {
+    font-weight: 500;
+  }
+
   .site-nav > a {
     display: inline-block;
     padding-top: 24px;
